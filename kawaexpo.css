@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #2acaff;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+header ul {
+    margin: 10px;
+    text-align: right;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header ul li a {
+    color: #FFFFFF;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+header h1 {
+    color: #FFFFFF;
+    font-size: 100;
+    margin: 0px 0px;
+}
+
+
+.top{
+    margin: 0px;
+    text-align: center;
+}
+
+.top img {
+    height: auto;
+    width: 100%;
+}
+
+.title {
+    font-size: 200%;
+}
+
+.main {
+    text-align: center;
+    margin: 0px;
+}
+
+.main img {
+    height: auto;
+    width: 95%;
+    max-width: 400px;
+}
+
+.text {
+    font-size: 150%;
+    padding: 25px;
+}
+
+.food {
+    background-color: orange;
+    color: #FFFFFF;
+    padding: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.activity {
+    background-color: pink;
+    color: black;
+    padding: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.game {
+    background-color: purple;
+    color: #FFFFFF;
+    padding: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+
+footer {
+    background-color: #2acaff;
+    color: #FFFFFF;
+    margin-top: 80px;
+    padding: 10px;
+}
+
+
+@media screen and (min-width: 960px) {
+	body {
+        margin: 0px;
+        font-size: 150%;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    header ul {
+        margin: 10px;
+    }
+
+    header ul li {
+        display: inline-block;
+        padding: 0 20px;
+    }
+
+    header ul li a {
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+    header h1 {
+        margin: 0px 0px;
+    }
+
+
+    .title {
+        font-size: 200%;
+        margin-top: 100PX;
+    }
+
+    .main {
+        text-align: center;
+        margin: 80px;
+    }
+
+    .main img {
+        max-width: 60%;
+    }
+
+    .text {
+        font-size: 150%;
+    }
+
+    .food {
+        padding: 50px;
+    }
+
+    .activity {
+        padding: 50px;
+    }
+
+    .game {
+        padding: 50px;
+    }
+
+
+    footer {
+        margin-bottom: 0%;
+        padding: 10px;
+    }
+}
