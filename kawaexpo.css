@@ -159,6 +159,7 @@ footer {
 
 
     footer {
+        display: inline-block;
         margin-bottom: 0%;
         padding: 10px;
     }
