@@ -95,6 +95,11 @@ footer {
     padding: 10px;
 }
 
+footer p {
+    width: 260px;
+    margin: 0px;
+}
+
 
 @media screen and (min-width: 960px) {
 	body {
@@ -159,8 +164,12 @@ footer {
 
 
     footer {
-        display: inline-block;
         margin-bottom: 0%;
         padding: 10px;
+    }
+
+    footer p {
+        width: 900px;
+        margin: 0px;
     }
 }
