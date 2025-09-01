@@ -1,11 +1,12 @@
 body {
     margin: 0;
+    font-size: 150%;
 }
 
 header {
     position: sticky;
     top: 0;
-    background-color: #2acaff;
+    background-color: #151b74;
     justify-content: space-between;
     padding: 10px;
 }
@@ -28,7 +29,7 @@ header ul li a {
 
 header h1 {
     color: #FFFFFF;
-    font-size: 100;
+    font-size: 170%;
     margin: 0px 0px;
 }
 
@@ -59,117 +60,49 @@ header h1 {
 }
 
 .text {
-    font-size: 150%;
+    font-size: 120%;
     padding: 25px;
 }
 
 .food {
-    background-color: orange;
-    color: #FFFFFF;
-    padding: 20px;
+    background-color: rgb(255, 191, 89);
+    color: #000000;
     padding-bottom: 50px;
     padding-top: 50px;
 }
 
 .activity {
-    background-color: pink;
+    background-color: rgb(255, 104, 129);
     color: black;
-    padding: 20px;
     padding-bottom: 50px;
     padding-top: 50px;
 }
 
 .game {
-    background-color: purple;
-    color: #FFFFFF;
-    padding: 20px;
+    background-color: rgb(190, 93, 255);
+    color: #000000;
     padding-bottom: 50px;
     padding-top: 50px;
 }
 
+.entry {
+    background-color: aqua;
+    color: #000000;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.entry li {
+    margin: 30px;
+}
 
 footer {
-    background-color: #2acaff;
+    background-color: #151b74;
     color: #FFFFFF;
     margin-top: 80px;
-    padding: 10px;
 }
 
 footer p {
-    max-width: 255px;
+    font-size: 10px;
     margin: 0px;
-}
-
-
-@media screen and (min-width: 960px) {
-	body {
-        margin: 0px;
-        font-size: 150%;
-    }
-
-    header {
-        display: flex;
-        justify-content: space-between;
-        padding: 10px;
-    }
-
-    header ul {
-        margin: 10px;
-    }
-
-    header ul li {
-        display: inline-block;
-        padding: 0 20px;
-    }
-
-    header ul li a {
-        font-size: 20px;
-        text-decoration: none;
-    }
-
-    header h1 {
-        margin: 0px 0px;
-    }
-
-
-    .title {
-        font-size: 200%;
-        margin-top: 100PX;
-    }
-
-    .main {
-        text-align: center;
-        margin: 80px;
-    }
-
-    .main img {
-        max-width: 60%;
-    }
-
-    .text {
-        font-size: 150%;
-    }
-
-    .food {
-        padding: 50px;
-    }
-
-    .activity {
-        padding: 50px;
-    }
-
-    .game {
-        padding: 50px;
-    }
-
-
-    footer {
-        margin-bottom: 0%;
-        padding: 10px;
-    }
-
-    footer p {
-        width: 900px;
-        margin: 0px;
-    }
 }
