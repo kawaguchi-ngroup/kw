@@ -105,6 +105,10 @@ header h1 {
     text-decoration: none;
 }
 
+.c {
+    font-size: 20px;
+}
+
 footer {
     background-color: #151b74;
     color: #FFFFFF;
